@@ -1,6 +1,35 @@
-ecg_env/
+# Python
 __pycache__/
 *.pyc
-*.pkl
-*.h5
+
+# Virtual Environment (VERY IMPORTANT)
+ecg_env/
+venv/
+env/
+
+# Data & datasets
 *.csv
+*.json
+
+# Models
+*.h5
+*.pkl
+*.pt
+*.pth
+
+# Images & outputs
+ecg_images/
+real_test_files/
+outputs/
+runs/
+uploads/
+
+# Logs & temp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Zip / large files
+*.zip
